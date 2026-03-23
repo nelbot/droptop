@@ -139,9 +139,8 @@ The app requests your browser location via `navigator.geolocation`. If permissio
 
 1. Create a public repo named `droptop` at [github.com/new](https://github.com/new)
 2. Run `npm run build`
-3. Push the contents of `dist/` to the `gh-pages` branch, **or** configure Pages to deploy from the `main` branch root and commit `dist/` directly
-4. Go to **Settings → Pages → Source** and point it at your chosen branch/folder
-5. Visit `https://YOUR-USERNAME.github.io/droptop/`
+3. Go to **Settings → Pages → Source** and point it at your chosen branch/dist
+4. Visit `https://nelbot.github.io/droptop/`
 
 > **Tip:** Use the [vite-plugin-gh-pages](https://github.com/catnose99/vite-plugin-gh-pages) or the official `gh-pages` npm package to automate step 2–3.
 
