@@ -2,7 +2,7 @@
 node_modules/
 
 # Build output
-dist/
+# dist/ # we'll leave this here since we're using gh pages
 
 # Local env files
 .env
